@@ -11,4 +11,4 @@ def hello_world():
 
 # Run app
 if __name__ == "__main__":
-    serve(app, listen="127.0.0.1:8080")
+    serve(app, port="8080")
